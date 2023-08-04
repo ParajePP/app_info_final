@@ -1,1 +1,3 @@
-hola
+Hola, cuando carguen el proyecto antes de hacer el makemigrations y el migrate no se olviden de borrar los archivos de inicializaciones anteriores de las carpetas "migrations" en cada app.
+
+=)
