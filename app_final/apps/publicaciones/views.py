@@ -5,7 +5,7 @@ from django.urls import reverse_lazy, reverse
 from django.views.generic.edit import CreateView, UpdateView, BaseDeleteView, DeleteView
 from django.views.generic import ListView, DetailView
 from .models import *
-from .forms import *
+from .forms import PublicacionesForm, ComentarioForm, BusquedaForm
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import LoginRequiredMixin
 
