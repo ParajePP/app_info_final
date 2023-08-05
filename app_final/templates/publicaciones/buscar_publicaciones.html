@@ -14,7 +14,7 @@
     <h2>Resultados:</h2>
     <ul>
         {% for publicacion in resultados %}
-        <li>{{ publicacion.titulo }}: {{ publicacion.contenido }}</li>
+        <li>{{ publicacion.titulo }}: {{ publicacion.descripcion }}</li>
         {% endfor %}
     </ul>
     {% else %}

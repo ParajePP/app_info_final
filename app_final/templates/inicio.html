@@ -32,7 +32,8 @@
         <img src="{{p.imagen.url}}" class="card-img-top" alt="..." style="height: 200px; width: auto; margin-bottom: 5%;">
         <div class="card-body">
           <h5 class="card-title">{{p.titulo}}</h5>
-          <p class="card-text">{{p.descripcion}}</p>
+          <p class="card-text">{{p.empresa}}</p>
+          
           <a href="{% url 'apps.publicaciones:detalle' p.id %}" class="btn btn-primary">Ver más</a>
         </div>
       </div>
